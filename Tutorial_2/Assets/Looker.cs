@@ -21,5 +21,6 @@ public class Looker : MonoBehaviour
     void FixedUpdate()
     {
         this.GetComponent<Transform>().LookAt(target.transform);
+        this.transform.Translate(new Vector3(0,0,0.01f), Space.Self);
     }
 }
