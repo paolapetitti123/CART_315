@@ -43,6 +43,7 @@ Playtester 5:
 - Suggested giving some kind of visual or auditory queue when the player gets close to a vinyl.
 
 **My Thoughts** 
+
 The playtest session was extremely helpful in conceptualizing ways I could futher expand and explore possibilities in my game if in the future I choose to go with this prototype to continue working on. After the playtest was technically finished and we still had a few minutes on the clock, I let them know that the game come the future will be more of a searching game where the player has to find vinyl records around the house that they can then go to the record player and based off of the vinyls they found they can select a song through a menu that will pop up when the player interacts with the record player. They all seemed to really like this idea and some even thought it could be a little too ambitious but they all gave me some pointers on ways that I could make the search a lot more engaging. 
 
 Moving forward if I select this prototype to continue working on, I will be including the suggestion to make certain furniture items moveable to facilitate the search for the vinyls as well as climbing onto high objects. I will also consider adding in the suggestion to give the player a sort of auditory or visual queue when they get closer to a vinyl they can pick up, maybe like having the vinyl highlight or glow. 
