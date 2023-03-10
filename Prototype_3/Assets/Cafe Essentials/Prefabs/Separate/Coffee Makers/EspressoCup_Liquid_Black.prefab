@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6061337878944940027}
   - component: {fileID: 6649727586925255542}
   - component: {fileID: 785138620124542954}
-  - component: {fileID: 575722538722501355}
+  - component: {fileID: 132074658245832857}
+  - component: {fileID: 4015740157803461070}
   m_Layer: 0
   m_Name: EspressoCup_Liquid_Black
   m_TagString: Untagged
@@ -27,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3212839196000566281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.158, y: 3.809, z: 3.894}
+  m_LocalScale: {x: 0.726, y: 0.726, z: 0.726}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,8 +85,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &575722538722501355
-MeshCollider:
+--- !u!65 &132074658245832857
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +95,18 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 23b692c93b73d84458ce05379df8d5e9, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.18990076, y: 0.1763617, z: 0.18513954}
+  m_Center: {x: -0.0000000037252903, y: 0.0988454, z: 0.0000000037252903}
+--- !u!114 &4015740157803461070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212839196000566281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44368570e4054d2a91634c52c810610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

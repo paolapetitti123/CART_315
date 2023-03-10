@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gameFlow : MonoBehaviour
+public class servePlate : MonoBehaviour
 {
-    public static int orderValue = 150;
-    public static int plateValue = 000;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +14,13 @@ public class gameFlow : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnMouseDown()
+    {
+        if (gameFlow.orderValue == gameFlow.plateValue)
+        {
+            Debug.Log("correct lolz");
+        }
     }
 }

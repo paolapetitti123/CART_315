@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6564101863459858916}
   - component: {fileID: 8769516078936166517}
   - component: {fileID: 2913344337360721373}
-  - component: {fileID: 5942953129684551323}
   - component: {fileID: 5562896741082753993}
   m_Layer: 0
   m_Name: EspressoCup_Empty
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5942953129684551323
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2411461713542261211}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: ca222500cd464624d8ddcf6f2f965c31, type: 3}
 --- !u!65 &5562896741082753993
 BoxCollider:
   m_ObjectHideFlags: 0

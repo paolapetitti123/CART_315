@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6564101863459858916}
   - component: {fileID: 8769516078936166517}
   - component: {fileID: 2913344337360721373}
-  - component: {fileID: 1780741520013403370}
+  - component: {fileID: 5389146446304740161}
+  - component: {fileID: 8849093305132064596}
   m_Layer: 0
   m_Name: EspressoCup
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2411461713542261211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.726, y: 0.726, z: 0.726}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8929048328472128868}
@@ -85,8 +86,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1780741520013403370
-MeshCollider:
+--- !u!65 &5389146446304740161
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,10 +96,21 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: ca222500cd464624d8ddcf6f2f965c31, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.22142203, y: 0.22077456, z: 0.2881314}
+  m_Center: {x: 0, y: 0.11038728, z: -0.036130436}
+--- !u!114 &8849093305132064596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2411461713542261211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44368570e4054d2a91634c52c810610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3455501757268988575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -113,6 +125,18 @@ PrefabInstance:
     - target: {fileID: 6061337878944940027, guid: 85bd814ecc2611143aaaf4e4c6dfbb1a, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061337878944940027, guid: 85bd814ecc2611143aaaf4e4c6dfbb1a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061337878944940027, guid: 85bd814ecc2611143aaaf4e4c6dfbb1a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061337878944940027, guid: 85bd814ecc2611143aaaf4e4c6dfbb1a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6061337878944940027, guid: 85bd814ecc2611143aaaf4e4c6dfbb1a, type: 3}
       propertyPath: m_LocalPosition.x
